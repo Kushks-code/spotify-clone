@@ -1,0 +1,149 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color:mediumspringgreen;
+}
+nav
+{
+    font-family: 'Arvo', serif;
+font-family: 'Dongle', sans-serif;
+font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    background: Black;
+    color:aliceblue;
+    height:60px;
+    align-items: center;
+}
+nav ul li
+{
+    padding:0 100px
+}
+.brand
+{
+    padding:0px;
+}
+.brand img
+{
+    width:48px;
+    height:50px;
+    padding:0 8px;
+}
+.brand
+{
+    display: flex;
+    align-items: center
+}
+.brand span
+{
+    font-size:30px;
+}
+.container
+{
+    min-height: 75vh;
+      font-family: 'Arvo', serif;
+font-family: 'Dongle', sans-serif;
+font-family: 'Patrick Hand', cursive;
+    background-color:black;
+    color:white;
+    display: flex;
+    width:70%;
+    margin:23px auto;
+    font-size:10px;
+    background-image: url("background.jfif");
+    background-position: center;
+    background-size: cover;
+}
+.bottom
+{
+    height:100px;
+    position: sticky;
+    background: black;
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   color:whitesmoke;
+    flex-direction: column;
+    
+}
+
+#space,.duration
+{
+    padding:10px;
+}
+#space:hover
+{
+    cursor: pointer;
+    
+}
+#pbar
+{
+   width:500px
+
+}
+#pbar:hover
+{
+    cursor:pointer;
+    
+}
+.songItem
+{
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    width:150%;
+    background-color: beige;
+    color:black;
+    border-radius: 10px;
+   align-items: center;
+    margin:5px 5px;
+}
+.songItem img
+{
+    height:45px;
+   margin:3px 0;
+}
+.songlist #heading
+{
+   display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#songPlaying
+{
+    width:5%;
+}
+.songinfo
+{
+   
+    display: flex;
+    justify-content: center;
+    margin:2px 0;
+}
+#songPlaying
+{
+    opacity:0;
+    transition-delay::0.4ms ;
+    padding-right:3px;
+}
+#space1
+{
+    font-family: 'Arvo', serif;
+font-family: 'Dongle', sans-serif;
+font-family: 'Patrick Hand', cursive;
+  
+}
+
+
